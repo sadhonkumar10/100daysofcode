@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(pexels-jsalamanca-61135.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    
+   
+    
+}
+.continer{
+    
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+img{
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 50%;
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    
+    
+}
+li{
+    color: azure;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 25px;
+    
+    text-decoration: none;
+
+}
+nav form{
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 25px;
+    
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav form input{
+    padding: 12px;
+    border-radius: 20px 0px 0px 20px;
+    padding-right: 100px;
+    
+}
+nav form button{
+    padding:  12px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: orange;
+    
+
+}
+.header{
+    margin-left: 50px;
+    margin-top: 200px;
+    display: flex;
+    
+    
+}
+h1{
+    font-size: 100px;
+    color: aqua;
+
+}
+.header p{
+    font-size: 15px;
+    color:white;
+    line-height: 20px;
+}
+
+.card1{
+    height: 200px;
+    width: 300px;
+    background-image: url(pic3.jfif);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-left: 50px;
+    display: inline-block;
+    margin: 15px;
+    padding: 20px;
+    
+}
+ h2{
+    
+    font-size: 20px;
+    color: aqua;
+}
+p{
+    font-size: 10px;
+    line-height: 12px;
+
+}
+.card2{
+    height: 200px;
+    width: 300px;
+    background-image: url(pic2.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-left: 50px;
+    display: inline-block;
+    margin: 15px;
+    padding: 20px;
+    
+}
+.card3{
+    height: 200px;
+    width: 300px;
+    background-image: url(pic5.webp);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-left: 50px;
+    display: inline-block;
+    margin: 15px;
+    padding: 20px;
+    
+    
+}
+.card4{
+    height: 200px;
+    width: 300px;
+    background-image: url(pic4.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-left: 50px;
+    display: inline-block;
+    margin: 15px;
+    padding: 20px;
+    
+    
+}
+.header button{
+    padding: 2px;
+    border-radius: 5px;
+    background-color:transparent;
+    margin-top: 70px;
+    color: aqua;
+}
+
