@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section{
+    height: 600px;
+    width: 900px;
+    background-color: rgb(251, 245, 245);
+    align-items: center;
+    margin: 0 auto;
+    box-shadow: 5px 5px rgb(244, 220, 220);
+    border-radius: 20px;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.text{
+    height: 600px;
+    width: 500px;
+    background-color: blue;
+    border-radius: 150px 20px 20px 150px;
+    text-align: center;
+    
+    
+
+
+}
+.text h1{
+    margin-top: 250px;
+    font-size: 40px;
+    color: white;
+}
+.text p{
+    font-size: 15px;
+    line-height: 18px;
+    color: white;
+    padding-top: 10px;
+    margin-left: 20px;
+    padding-bottom: 50px;
+}
+.form h1{
+    font-size: 40px;
+    text-align: center;
+}
+.form input{
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 150px;
+    width: 150px;
+    border: 2px solid rgb(62, 60, 60);
+    border-radius: 20px;
+    
+    
+    
+}
+.form{
+    /* margin-top: 200px; */
+    margin-top: 20px;
+
+}
+.sing{
+    height: 600px;
+    width: 400px;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+.form button{
+    padding: 10px;
+    padding-left: 155px;
+    padding-right: 155px;
+    border-radius: 20px;
+    background-color: blue;
+    border: 0px solid blue;
+    color: white;
+    font-size: 20px;
+    
+    
+
+}
+a{
+    color: red;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.text a{
+    color:white;
+    font-size: 25px;
+    margin-left: 30px;
+    
+    
+}
