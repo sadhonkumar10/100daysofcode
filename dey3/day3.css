@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+}
+.section1{
+    background-image: url(poly.jfif);
+    background-size: cover;
+    height: 100vh;
+
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+nav img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    
+
+}
+nav ul{
+    display: flex;
+    
+}
+nav ul li{
+    margin-left: 50px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    
+    font-size: 25px;
+    color:black;
+}
+nav input{
+    font-size: 20px;
+    padding: 10px;
+    border-radius:20px 0px 0px 20px;
+}
+nav button{
+    font-size: 20px;
+    padding: 10px;
+    border-radius:0px 20px 20px 0px;
+    background-color: yellowgreen;
+}
+.text{
+    margin-top: 200px;
+
+
+}
+.text h1{
+    font-size: 100px;
+    color: aqua;
+    margin-left: 50px;
+
+}
+.text h2{
+    font-size: 50px;
+    color: red;
+    margin-left: 50px;
+}
+.text p{
+    font-size: 20px;
+    color: white;
+    line-height: 22px;
+    margin-left: 50px;
+}
+.text a{
+    
+    padding: 20px;
+    color: red;
+}
+
+
+ img{
+    margin-left: 20px;
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+article{
+    background-color: rgb(192, 192, 238);
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    display: inline-block;
+     display: flex;
+}
+h3{
+    font-size: 100px;
+    text-align: center;
+}
+article p{
+    font-size: 20px;
+    line-height: 24px;
+    /* margin-top: 100px; */
+    padding-left: 20px;
+}
+article a{
+    color: red;
+}
+h4{
+    font-size: 25px;
+    margin-top: 50px;
+    padding-left: 20px;
+    color: blue;
+}
+i{
+    font-size: 25px;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+h5{
+    text-align: center;
+    font-size: 25px;
+    color: aqua;
+    padding: 8pxpx;
+    border: 1px solid black;
+    background-color: rgb(182, 240, 240);
+    border-radius: 20px;
+
+    
+}
+.box{
+    padding-top: 20px;
+}
+.form{
+    text-align: center;
+    font-size: 25px;
+    background-color: aquamarine;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+input{
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 100px;
+}
+.area input{
+    width: 1000px;
+    height: 250px;
+
+    padding: 0;
+    
+}
+
+label{
+    padding-bottom: 5px;
+}
+.form button{
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+
