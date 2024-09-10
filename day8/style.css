@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    background-image: url(./im/back.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    
+    
+}
+h1{
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+h1 span{
+    color: deeppink;
+}
+nav{
+    margin: 20px;
+}
+nav ul{
+    text-decoration: none;
+}
+nav ul li{
+    display:inline-block ;
+    margin-left: 40px;
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.bnt{
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.bnt button{
+    padding: 10px;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+}
+.header-text{
+   
+    margin-top: 250px;
+    color: white;
+    text-align: center;
+}
+h3{
+   font-size: 30px; 
+}
+.header-text span{
+    color: blue;
+}
+h2{
+    text-transform: uppercase;
+
+}
+button{
+    background-color:blue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 1s;
+
+}
+button:hover{
+    background-color: transparent;
+    color: rgb(245, 8, 8);
+    cursor: pointer;
+
+}
+.continer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.box{
+    height: 500px;
+    
+    width: 500px;
+    text-align: center;
+   
+}
+.box img{
+    height: 300px;
+    width: 500px;    
+}
+h4{
+    font-size: 20px;
+    color: blue;
+    
+}
+h5{
+    font-size: 40px;
+    text-align: center;
+    color: blue;
+    padding: 20px;
+}
+.box img:hover{
+    
+
+}
+.expolor{
+    background-image:url(./im/pexels-ajaybhargavguduru-939729.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.expolor-text{
+    text-align: center;
+    color: white;
+    padding-top: 250px;
+}
+.expolor-text span{
+    color: blue;
+}
+.expolor-text h3{
+    font-size: 50px;
+
+}
+.im img{
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+.tour{
+    display: flex;
+    padding: 20px;
+    padding-left: 100px;
+}
+.im{
+    display: flex;
+
+}
+.tour-text h2{
+    font-size: 50px;
+    color: yellowgreen;
+    padding-bottom: 50px;
+}
+.tour-text p{
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.tour-text{
+    padding-right: 20px;
+}
+footer{
+    background-color: blueviolet;
+    height: 20vh;
+    width: 100%;
+    text-align: center;
+    padding-top: 15vh;
+}
+h6{
+    color: white;
+    
+}
+
+
+
