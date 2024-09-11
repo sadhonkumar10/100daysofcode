@@ -1,0 +1,303 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+ section{
+    background-color:rgb(218, 249, 249);
+    height: 100vh;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 40px;
+    
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px;
+}
+nav ul li a{
+    font-size: 20px;
+    color: black;
+    padding-bottom: 5px;
+    transition: 0.2s;
+}
+h1{
+    font-size: 40px;
+    color: green;
+}
+nav ul li a:hover{
+    border-bottom: 5px dotted rgb(7, 79, 10);
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.header img{
+    padding-top: 100px;
+}
+.header-text{
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+.header-text h2{
+    font-size: 70px;
+    padding-top: 50px;
+    
+}
+.header-text p{
+    font-size: 15px;
+    line-height: 19px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.header-text button{
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: green;
+    border: none;
+    color: white;
+    transition: 0.5s;
+}
+.header-text button:hover{
+    background-color: transparent;
+    color: black;
+
+}
+.brand{
+    margin-top: 100px;
+    
+}
+.brand img{
+    height: 30px;
+    
+}
+.sarvice{
+    padding-top: 200px;
+    padding-left: 200px;
+    padding-right: 100px;
+    display: flex;
+    
+
+}
+.sarvice-card{
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 2px solid rgb(181, 178, 178);
+    border-bottom: 2px solid rgb(181, 178, 178);
+}
+.sarvice-card .sarvice-card-icon{
+    font-size: 22px;
+    padding: 10px;
+    color: green;
+    background-color:rgb(218, 249, 249);
+    
+}
+.sarvice-card .sarvice-card-text{
+    padding-left: 10px;
+    color: rgb(100, 97, 97);
+    
+}
+.sarvice-card .sarvice-card-text p{
+    font-size: 12px;
+    padding-top: 5px;
+
+}
+.sarvice-card .sarvice-card-text h3{
+    font-size: 15px;
+}
+.benefit{
+    display: flex;
+    padding-left: 150px;
+   
+    padding-top: 80px;
+}
+.benefit .benefit-im{
+    padding-right: 80px;
+}
+.benefit .benefit-text{
+    padding-top: 70px;
+}
+.benefit .benefit-text span{
+    font-size: 15px;
+    padding-bottom: 20px;
+
+}
+.benefit .benefit-text h3{
+    color: black;
+    font-size: 50px;
+}
+.list{
+    padding-top: 40px;
+
+}
+.list li{
+    padding-bottom: 15px;
+}
+.benefit-im img{
+    height: 500px;
+}
+.list li i{
+    color: green;
+    padding-left: 5px;
+}
+.feedback{
+    display: flex;
+    padding-left: 200px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.rating{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 40px;
+
+    
+}
+.feedback h3{
+    font-size: 50px;
+    padding-top: 30px;
+}
+.feedback-im{
+      padding-left: 100px;
+}
+.feedback-im img{
+    height: 500px;
+}
+.feedback button{
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: green;
+    border: none;
+    color: white;
+    transition: 0.5s;
+
+}
+.feedback button:hover{
+    background-color: transparent;
+    color: black;
+
+}
+.rating h4{
+    color: green;
+}
+.rating p{
+    font-size: 15px;
+}
+.feedback img{
+    height: 500px;
+    padding-left: 100px;
+}
+.feature{
+    padding-left: 120px;
+
+}
+.feature img {
+    width: 1200px;
+}
+.card{
+    height: 300px;
+    width: 200px;
+    border: 1px solid rgb(4, 60, 27);
+    text-align: center;
+    margin-left: 70px;
+}
+.popular-card img{
+    height: 100px;
+    width: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.popular-card i{
+    color: forestgreen;
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+    color: forestgreen;
+    border: 1px solid forestgreen;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: transparent;
+    color: black;
+}
+.popular-card{
+    display: flex;
+    padding-left: 120px;
+    padding-bottom: 100px;
+}
+.card-im2 img{
+    border-radius: 50%;
+}
+.popular h1{
+    padding-left: 200px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    color: black;
+
+}
+.popular-p{
+    padding-left: 200px;
+}
+.continer{
+    background-image: url(./im/Rectangle\ 8.png);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    width: 80%;
+    padding-left: 100px;
+    text-align: center;
+
+    
+}
+.main-continer{
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+.main-continer h2{
+    color: white;
+    font-size: 50px;
+    padding-top: 150px;
+     
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+footer li{
+    padding-bottom: 5px;
+}
+footer input{
+    padding: 10px;
+}
+h6{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
