@@ -1,0 +1,73 @@
+@font-face {
+    font-family: sadhon;
+    src: url(./ShohidAbuSayed/Unicode/Li\ Shohid\ Abu\ Sayed\ Unicode.ttf);
+   
+}
+@font-face {
+    font-family: sorojit;
+    src: url(./ShohidAbuSayed/Unicode/Li\ Shohid\ Abu\ Sayed\ Unicode\ Italic.ttf);
+}
+
+
+
+body{
+    background-color:rgb(190, 184, 184);
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    
+}
+.article-all{
+    background-color:white ;
+    padding: 40px;
+    box-shadow: 5px 5px 5px 5px black;
+   
+}
+img{
+    
+    width: 500px;
+    height: 500px;
+    float: left;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    font-family: sadhon;
+    text-align: center;
+    font-size: 100px;
+    
+}
+h3{
+    font-family: sadhon;
+    font-size: 50px;
+    border-bottom: 2px solid black;
+    display: inline-block;
+    padding: 5px;
+}
+h2{
+    font-family: sadhon;
+    font-size: 50px;
+    padding: 5px;
+    border-bottom: 5px solid forestgreen;
+    color: forestgreen;
+}
+p{
+    font-family: sadhon;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: sorojit;
+}
+span{
+    padding-left: 30px;
+}
+li{
+    font-family: sorojit;
+    line-height: 20px;
+}
+ul{
+    padding-bottom: 30px;
+}
+.shuu {
+   
+}
+
