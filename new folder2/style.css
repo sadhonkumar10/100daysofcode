@@ -1,0 +1,279 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+body{
+    background-color: black;   
+}
+nav{
+    background-image: url(./image/Background\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+    height: 90vh; 
+    width: 90%;
+    padding-left: 40px;
+    margin-left: 40px;
+    border-radius: 40px;
+    margin-top: 40px;
+    padding-right: 40px;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    padding:60px 40px 40px 40px ;
+    border-bottom: 2px solid rgb(141, 138, 138);
+
+    
+}
+.nav-logo{
+    display: flex;
+
+
+}
+.logo-menu{
+    margin-left: 40px;
+}
+.logo-menu button{
+    padding: 12px;
+    font-size: 25px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+.menu ul li{
+    display: inline-block;
+    margin-left: 20px;
+    list-style: none;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+.header-text {
+    padding-left: 40px;
+}
+.header-text h1{
+    color: white;
+    margin-top: 7%;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+.header-text button{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+}
+.header-text .bnt{
+    background-color: red;
+}
+.services{
+    display: flex; 
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.card{
+    height: 250px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+   
+    background-color: rgb(38, 37, 37);
+}
+.card h2{
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.card p{
+    color: white;
+    position: relative;
+    top: 150px;
+    left: 10px;
+}
+.sarvices-bnt{
+    position: relative;
+    left: 340px;
+    bottom: 65px;
+
+}
+.sarvices-bnt button{
+    padding: 5px;
+    border-radius: 30px;
+    background-color: red;
+}
+.red .card{
+  background-color: red;
+}
+.contineer{
+    background-color: white;
+    height: 90vh;
+    width: 90%;
+    padding-left: 40px;
+    margin-left: 30px;
+    border-radius: 40px;
+    margin-top: 40px;
+    padding-right: 40px;
+}
+.contineer-card{
+    display: flex;
+    gap: 40px;
+    padding-left: 70px;
+
+}
+.card-car{
+    height: 320px;
+    width: 270px;
+    
+}
+.car-im{
+    padding-left: 4px;
+}
+.car-bnt{
+    position: relative;
+    bottom: 180px;
+    left: 200px;
+
+}
+.car-bnt button{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+.car-text h3{
+    font-size: 20px;
+
+}
+.car-text h4{
+    font-size: 20px;
+    padding-top: 5px;
+    
+}
+.car-text h4 a i{
+    margin-left: 30px;
+}
+.car-text h4 a{
+    color:black;
+}
+.contineer-text{
+    font-size: 30px;
+    padding-bottom: 40px;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+.social{
+    height: 100px;
+    width: 1200px;
+    background-color: rgb(210, 215, 215);
+    margin-left: 80px;
+    margin-top: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.social h2{
+    padding: 40px;
+}
+.facebook{
+    font-size: 20px;
+    margin: 30px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color:white;
+    border-radius:20px ;
+}
+.insta{
+    font-size: 20px;
+    margin: 30px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color:white;
+    border-radius:20px ;
+}
+.youtube{
+    font-size: 20px;
+    margin: 30px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color:white;
+    border-radius:20px ;
+
+}
+.fa-youtube{
+    color: red;
+}
+footer{
+    background-color:red;
+    height: 90vh;
+    width: 90%;
+    padding-left: 40px;
+    margin-left: 30px;
+    border-radius: 40px;
+    margin-top: 40px;
+    padding-right: 40px;
+    display: flex;
+    gap: 100px;
+
+
+}
+.footer-right{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.footer-right h1{
+    font-size: 80px;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 100px;
+
+}
+.footer-right h5{
+    font-size: 25px;
+    color: white;
+    padding-bottom: 100px;
+}
+.footer-right button{
+    padding: 10px;
+
+}
+.footer-bnt{
+    background-color: transparent;
+    
+}
+.icon{
+    font-size: 80px;
+}
+.footer-left{
+    padding-top: 100px;
+    color: white;
+
+}
+.footer-contineer{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+
+
+}
+.footer-card h2{
+    font-size: 40px;
+
+}
+
+
+
+
+
