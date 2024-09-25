@@ -1,0 +1,331 @@
+@media (min-width:420px) {
+    *{
+        font-family: sans-serif;
+        list-style: none;
+        text-decoration: none;
+    }
+    nav{
+        margin: 40px;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        
+       }
+    
+    .nav-right{
+        display: none;
+    }
+    .nav-button{
+        display: none; 
+    }
+    .header-left img{
+        height: 300px;
+        width: 350px;
+    }
+    
+    .header-left{
+        text-align: center;
+    }
+    .header-right {
+    
+        text-align: center;
+
+    }
+    .header-right h1{
+        font-size: 40px;
+    }
+    .header-right button{
+        padding: 10px;
+        border-radius: 10px;
+        background-color: rgb(227, 73, 21);
+        border: none;
+        color: white;
+        transition: .5s;
+    }
+    .header-right button:hover{
+        background-color: transparent;
+        color: black;
+
+
+    }
+    .main{
+        padding-left: 10px;
+    }
+    .main h2{
+        font-size: 40px;
+        text-align: center;
+    }
+    .main .main-text{
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .list h3 button{
+        padding:10px 20px 10px 20px;
+        border-radius: 50%;
+        background-color: rgb(227, 73, 21);
+        border: none;
+        color: white;   
+    }
+    .list h3{
+        background-color:rgb(244, 148, 116);
+        border-radius: 20px;
+    }
+    .customar h2{
+        font-size: 40px;
+        color:  rgb(227, 73, 21);
+        text-align: center;
+        padding-top: 30px;
+
+    }
+    
+    .review-card{
+        height: 350px;
+        width: 400px;
+        text-align: center;
+        margin: 0 auto;
+        background-color: gainsboro; 
+        border-radius: 20px;
+
+    }
+    .review-card h4{
+        font-size: 30px;
+    }
+    .review-card p{
+        font-size: 15px;
+    }
+    .review-card2 {
+        display: none;
+    }
+    .review-card3{
+        display: none;
+    }
+    .customar{
+        text-align: center;
+        
+    }
+    .review-button{
+        padding-top: 40px;
+
+    }
+    .review-button button{
+        padding: 15px 30px;
+        background-color: rgb(227, 73, 21) ;
+        border: none;
+        border-radius: 10px;
+        color: white;
+    }
+    section{
+        background-color: rgb(227, 73, 21);
+        height: 40vh;
+        width: 100%;
+        text-align: center;
+    }
+    section h1{
+        font-size: 50px;
+        color: white;
+        padding-top: 50px;
+    }
+    section button{
+        padding: 20px 30px;
+        font-size: 30px;
+        background-color: white;
+        border-radius: 20px;
+        border: none;
+    }
+    footer{
+        background-color: black;
+        height: 35vh;
+        width: 100%;
+    }
+    .list-footer{
+        display: flex;
+        color: white;
+        justify-content: space-between;
+        padding: 20px ;
+    }
+    .list1 .list1-icon img{
+        height: 30px;
+        padding-top: 30px;
+
+    }
+    .list2{
+        font-size: 20px;
+    }
+    .list3{
+        font-size: 20px;
+    }
+    .input{
+        text-align: end;
+        padding-right: 20px;
+    }
+    .input input{
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .input button{
+        padding: 15px;
+        border-radius: 10px;
+        background-color:rgb(227, 73, 21) ;
+    }
+    
+}
+
+@media (min-width:800px) {
+   
+    
+    .nav-right{
+        display: block;
+    }
+    .nav-button{
+        display: block;
+        padding-left: 20px;
+    }
+    .icon{
+        display: none;
+    }
+    .nav-right ul {
+        display: flex;
+        gap: 20px;
+    }
+    .nav-right ul li{
+        padding-left: 10px;
+        list-style: none;
+
+    }
+    .nav-right ul li a{
+        text-decoration: none;
+        font-size: 15px;
+        color: black;
+    }
+    .nav-right ul li a:hover{
+        color:white;
+        padding: 10px;
+        background-color:rgb(227, 73, 21) ;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px  black;
+    }
+
+    .nav-button button{
+        padding: 15px;
+        border-radius: 20px;
+        color: white;
+        background-color:rgb(227, 73, 21) ;
+        border: none;
+        transition: .5s;
+    }
+    .nav-button button:hover{
+        background-color: transparent;
+        color: black;
+
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 40px;
+        flex-direction: row-reverse;
+    }
+    .header-right{
+        margin-left: 50px;
+    }
+    .header-left img{
+        height: 300px;
+        width: 280px;
+
+    }
+    .review-card2{
+        display: block;
+        height: 350px;
+        width: 400px;
+        text-align: center;
+        margin: 0 auto;
+        background-color: gainsboro; 
+        border-radius: 20px;
+    }
+    .review-card3{
+        display: block;
+        height: 350px;
+        width: 400px;
+        text-align: center;
+        margin: 0 auto;
+        background-color: gainsboro; 
+        border-radius: 20px;
+    }
+    .review{
+        display: flex;
+        gap: 20px;
+    }
+    .review-card2 h4{
+        font-size: 30px;
+    }
+    .review-card2 p{
+        font-size: 15px;
+    }
+    .review-card3 h4{
+        font-size: 30px;
+    }
+    .review-card3 p{
+        font-size: 15px;
+    }
+    
+    
+}
+@media (min-width:1024px) {
+    .header-left img{
+        height: 500px;
+        width: 550px;
+    }
+    .main{
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    .main-list-left{
+        text-align: center;
+        margin-top: 100px;
+    }
+    .nav-right ul li{
+        padding-left: 20px;
+    
+
+    }
+    .nav-right ul li a{
+        font-size: 20px;
+        transition: .5s;
+
+    }
+    .nav-right ul li a:hover{
+        color:white;
+        padding: 10px;
+        background-color:rgb(227, 73, 21) ;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px  black;
+    }
+    .review-button{
+        padding-bottom: 20px;
+    }
+    .review-button button:hover{
+        background-color: white;
+        color: black;
+        transition: .5s;
+
+    }
+    section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center
+        
+    }
+    .section-button{
+        padding-right: 50px;
+    }
+    .section-button button:hover{
+        background-color: transparent;
+        transition: .5s;
+    }
+    .section-text{
+        padding-left: 50px;
+    }
+    
+}
